@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDos</title>
+</head>
+<body>
+    <div>
+        <div class="project-add">
+            <h2>Add a project</h2>
+            <form id="addProject">
+                <label for="titleInput">Title:</label>
+                <input type="text" id="titleInput" name="titleInput" required>
+                <button type="submit">Add</button>
+                <button type="button" id="closePopup">Close</button>
+            </form>
+        </div>
+        <div class="todo-add">
+            <h2>Add a Todo</h2>
+            <form id="addTodo">
+                <label for="titleTodo">Title:</label>
+                <input type="text" id="titleTodo" name="titleTodo" required>
+    
+                <label for="dueDateInput">Due Date:</label>
+                <input type="date" id="dueDateInput" name="dueDateInput" required>
+    
+                <label for="descriptionInput">Description:</label>
+                <textarea id="descriptionInput" name="descriptionInput" rows="4" required></textarea>
+    
+                <label for="priorityInput">Priority:</label>
+                <select id="priorityInput" name="priorityInput" required>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+    
+                <button type="submit">Add</button>
+                <button type="button" id="closeTodo">Close</button>
+            </form>
+        </div>
+    </div>
+    <div class="main">
+        <div class="sidebar">
+            <button id="show-all">Todos</button>
+            <button id="add">Add Task</button>
+            <div>
+                <div class="projects">
+                    <h2>Projects</h2>
+                    <button id="new-project">+</button>
+                </div>
+                <div class="project-list">
+                </div>
+            </div>
+        </div>
+        <div>
+            <h1>My Todo List</h1>
+            <div class="container">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
