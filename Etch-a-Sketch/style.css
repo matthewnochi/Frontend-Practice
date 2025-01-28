@@ -1,0 +1,38 @@
+.title {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: lightcyan;
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    border: 2px solid black;
+}
+
+.grid {
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 0px;
+    background-color: white;
+}

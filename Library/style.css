@@ -1,0 +1,116 @@
+:root {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+#add {
+    margin: 30px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: solid black 2px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
+#add:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+input {
+    width: 300px;
+}
+
+input[type="text"], select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.add-book {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lib-text {
+    text-align: center;
+}
+
+.library {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lib-card {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    border: solid #ddd 1px;
+    padding: 15px;
+    width: 220px;
+    height: 180px;
+    box-shadow: 04px8pxrgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.lib-card:hover {
+    transform: scale(1.05);
+    box-shadow: 06px12pxrgba(0, 0, 0, 0.2);
+}
+
+.lib-card p {
+    font-size: 16px;
+}
+
+.lib-card p:first-of-type {
+    font-weight: bold;
+    color: black;
+}
+.lib-card p:not(:first-of-type) {
+    color: #333; 
+}

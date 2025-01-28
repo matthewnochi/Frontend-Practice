@@ -1,0 +1,149 @@
+:root {
+    background-color: black ;
+}
+
+.pic {
+    height: 900px;
+    width: 600px;
+    position: relative;
+    bottom: -75px;
+}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar {
+    position: relative;
+    top: -700px;
+    width: 600px;
+    height: 150px;
+    background-color: rgb(0, 0, 0, 0.5);
+    font-family: fantasy;
+    font-size: 70px;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 85px;
+    height: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 100%;
+    width: 800px;
+    background-color: white;
+}
+
+.text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-right: 140px;
+}
+
+.top-text {
+    padding-top: 130px;
+}
+
+.short-text {
+    padding-top: 20px;
+}
+.form {
+    background-color: white;
+    box-shadow: 
+        0 -4px 4px -3px lightgray,  
+        0 4px 4px -3px lightgray;
+}
+
+input, label {
+    display: block;
+    margin-left: 40px;
+    width: 250px;
+}
+
+label {
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+    font-weight: 300;
+}
+
+input {
+    padding: 2px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    background-color: white;
+    border-style: solid;
+}
+
+input:valid {
+    border-color: lightgray;
+}
+input:invalid {
+    border-color: red;
+}
+
+input.invalid {
+    border-color: red;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 40px;
+    padding-bottom: 30px;
+}
+
+.create {
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px -2px -2px -2px gray;
+    color: white;
+    background-color: darkolivegreen;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.log-in {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+.account {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-bottom: 148px;
+}
+
+.error-message {
+    color: red; 
+    margin-left: 40px;
+}

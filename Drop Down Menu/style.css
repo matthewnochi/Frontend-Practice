@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 0px;
+    transition: max-height 0.3s ease-in-out;
+    background-color: #38a1fc;
+    width: 80px;
+    padding-left: 10px;
+}
+
+#button {
+    width: 90px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    background-color: #0388fc;
+    border: none;
+}
+
+#button:hover {
+    background-color: #026cc9;
+    cursor: pointer;
+}
